@@ -10,11 +10,24 @@ font-family: exo;
   }
 
 
-.thesislink { 
+.link { 
 text-decoration: none; 
-
-
  }
+
+ul { 
+float: right;
+display: inline-block;
+list-style-type: none;
+position: relative; 
+
+ } 
+
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
 
 
 @media only screen and (max-width: 580px) { 
@@ -23,3 +36,7 @@ display: none;
 
  }; 
 }
+
+footer { 
+
+ }

@@ -16,6 +16,9 @@ $(".dolphinimage").on("click", function () {
 
 
 $(".thesislink").on("hover", function () { 
-	$("this").css({"color":"green","font-family":"comic sans", "size":"30px"}); 
+	$(this).css({"color":"green","font-family":"comic sans", "font-size":"30px"}); 
+
+}, function () { 
+	$(this).css({"color":"black","font-family":"comic sans", "font-size":"40px"}); 
 
 }); 

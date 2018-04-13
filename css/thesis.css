@@ -2,12 +2,20 @@
 background-color: #7fffd4;
 font-family: sans-serif;
 
-
-
  }
 
  h1 { 
 font-family: sans-serif;
   }
 
+.essay { 
+border: 5px solid navy;
+padding: 2%;
+margin: 2%;
 
+ }
+
+p::first-letter { 
+font-size: 25px;
+font-family: Comic Sans;
+ }
