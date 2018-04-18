@@ -11,25 +11,29 @@
   <link rel="stylesheet" href="../css/form.css" media="screen" type="text/css" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+ <script src="../js/jquery.serialize-object.min.js"></script>
 
 </head>
 
 <div class=whole>
-<h1 class="title"> Do You Want To Get Involved?!</h1>
+<h1 class="title"> Environmental Impact Survey</h1>
+<h2 class="subtitle"> Fill out this form to help with our research! </h2>
+<h3 class="subsubtitle"> We'll send you more information about the areas that interest you and how to help make an impact </h3>
+
+
 
 <body class="body">
 
-<form action= "survey.php" method="post">
+<form id="test-form" method="POST">
 
 
 <label for="firstname"> First Name </label>
-<input id="firstname" type= "text" name= "email"> 
+<input id="firstname" type= "text" name= "firstname"> 
 
 <br>
 <br>
 <label for="lastname"> Last Name </label>
-<input id="lastname" type= "text" name= "email"> 
+<input id="lastname" type= "text" name= "lastname"> 
 
 <br>
 <label for="email"> Email </label>
@@ -37,51 +41,86 @@
 <br>
 <br>
 <label for="age"> Age </label>
-<input id="age" type= "number" name= "email"> 
+<input id="age" type= "number" name= "age"> 
 <br>
 <br>
 
 <p>
  Select all areas that interest you 
 </p>
-<label for=""> Environmental Policy</label>
-<input type= "checkbox" name= "interest" value="Environmental Policy" id="Environmental Policy" >
+<label for=""> Environmental_Policy</label>
+<input type= "checkbox" name= "Environmental_Policy" value="Environmental Policy" id="Environmental Policy" >
 <label for="checkbox"> Oceanography</label>
-<input type= "checkbox" name= "interest" value="Oceanography" id="Oceanography">
-<label for="checkbox"> Corporate Social Responsibility</label>
-<input type= "checkbox" name= "interest" value="Corporate Social Responsibility"id="Corporate Social Responsibility">
+<input type= "checkbox" name= "Oceanography" value="Oceanography" id="Oceanography">
+<label for="checkbox"> Corporate_Social_Responsibility</label>
+<input type= "checkbox" name= "Corporate_Social_Responsibility" value="Corporate Social Responsibility"id="Corporate Social Responsibility">
 <label for="checkbox"> Global Warming </label>
 
 <br>
 <br>
 <p> On a scale of 1-5, 5 being always, 1 being never, how often do you recycle </p>
-<label for="daily"> one </label>
+<label for=""> one </label>
 <input type= "radio" name= "recycle" value="one">
-<label for="daily"> two </label>
+<label for=""> two </label>
 <input type= "radio" name= "recycle" value="two">
-<label for="daily"> three </label>
+<label for=""> three </label>
 <input type= "radio" name= "recycle" value="three">
-<label for="daily"> four </label>
+<label for=""> four </label>
 <input type= "radio" name= "recycle" value="four">
-<label for="daily"> five </label>
+<label for=""> five </label>
 <input type= "radio" name= "recycle" value="five">
 <br>
+
 <p> How often do you walk or bike instead of drive</p>
-<label for="daily"> one </label>
-<input type= "radio" name= "recycle" value="one">
-<label for="daily"> two </label>
-<input type= "radio" name= "recycle" value="two">
-<label for="daily"> three </label>
-<input type= "radio" name= "recycle" value="three">
-<label for="daily"> four </label>
-<input type= "radio" name= "recycle" value="four">
-<label for="daily"> five </label>
-<input type= "radio" name= "recycle" value="five">
+<label for=""> one </label>
+<input type= "radio" name= "bike" value="one">
+<label for=""> two </label>
+<input type= "radio" name= "bike" value="two">
+<label for=""> three </label>
+<input type= "radio" name= "bike" value="three">
+<label for=""> four </label>
+<input type= "radio" name= "bike" value="four">
+<label for=""> five </label>
+<input type= "radio" name= "bike" value="five">
 <br>
 
+<p> How often do you bring your own reusable bag to the store</p>
+<label for=""> one </label>
+<input type= "radio" name= "bag" value="one">
+<label for=""> two </label>
+<input type= "radio" name= "bag" value="two">
+<label for=""> three </label>
+<input type= "radio" name= "bag" value="three">
+<label for=""> four </label>
+<input type= "radio" name= "bag" value="four">
+<label for=""> five </label>
+<input type= "radio" name= "bag" value="five">
 
+<p> How often do you unplug outlets in your house</p>
+<label for=""> one </label>
+<input type= "radio" name= "outlets" value="one">
+<label for=""> two </label>
+<input type= "radio" name= "outlets" value="two">
+<label for=""> three </label>
+<input type= "radio" name= "outlets" value="three">
+<label for=""> four </label>
+<input type= "radio" name= "outlets" value="four">
+<label for=""> five </label>
+<input type= "radio" name= "outlets" value="five">
+
+<p> How often do you turn off all of the lights in your house</p>
+<label for=""> one </label>
+<input type= "radio" name= "lights" value="one">
+<label for=""> two </label>
+<input type= "radio" name= "lights" value="two">
+<label for=""> three </label>
+<input type= "radio" name= "lights" value="three">
+<label for=""> four </label>
+<input type= "radio" name= "lights" value="four">
+<label for=""> five </label>
+<input type= "radio" name= "lights" value="five">
 <br>
-<input type="submit">
+<input id="submit-form" type="submit">
  
 </form>
       </div>

@@ -14,13 +14,6 @@ font-family: exo;
 text-decoration: none; 
  }
 
-ul { 
-float: right;
-display: inline-block;
-list-style-type: none;
-position: relative; 
-
- } 
 
 .clearfix::after {
   clear: both;
