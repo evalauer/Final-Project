@@ -4,9 +4,31 @@ font-family: sans-serif;
 
  }
 
- h1 { 
-font-family: sans-serif;
-  }
+
+.title { 
+font-size: 50px;
+font-family: "Black Han Sans", sans-serif;
+color: navy;
+text-align: center; 
+
+ } 
+ 
+.link { 
+text-decoration: none;
+margin: 40%;
+ }
+
+h2 { 
+font-family: "Black Han Sans", sans-serif;
+color: navy;
+font-size: 20px;
+text-align: center;
+ }
+
+.dolphinimage { 
+margin-left: 10%;
+margin-right: 10%;
+ } 
 
 .essay { 
 border: 5px solid navy;

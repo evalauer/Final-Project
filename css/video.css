@@ -5,16 +5,29 @@ text-align: center;
 
  }
 
+
+
  h1 { 
 font-family: exo;
   }
+ 
+
+ .link { 
+text-decoration: none;
  }
 
 
 @media only screen and (max-width: 580px) { 
-.video 
+.videos 
 { 
 display: none;
-
- }; 
+};
 }
+
+
+.videos { 
+border: 3px dashed white;
+padding: 1%;
+margin-left: 25%;
+margin-right: 25%;
+ }
